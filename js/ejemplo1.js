@@ -12,8 +12,19 @@ var nombres=[];
 
 var NUMERO_NOMBRES=10;
 
+for(var i=1;i<10;i++){
+    var nombre = prompt ("Introducir nombre");
+    nombres.push(nombre);
 
+}
 
+var mensaje="Los nombres publicados son ...\n\n";
+ for(var i=0;i<nombres.length;i++){
+
+mensaje += nombres[i] + "\n";
+ }
+
+alert(mensaje);
 
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
